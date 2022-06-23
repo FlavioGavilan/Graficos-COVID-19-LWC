@@ -1,0 +1,9 @@
+<template>
+    <div class="container">
+        <lightning-card title="Gráfico COVID-19 - Janeiro/2022 à Junho/2022" icon-name="utility:chart">
+            <template if:true={chartConfiguration}>
+                <c-childbarchart chart-config={chartConfiguration}></c-childbarchart>
+            </template>
+        </lightning-card>
+    </div>     
+</template>
